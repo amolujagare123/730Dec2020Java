@@ -3,9 +3,9 @@ package pack1;
 public class Java1 {
 
     public  int a1;
-    double d1;
-    char c1;
-    private String str1 ;
+    public double d1;
+    protected  char c1;
+    String str1 ;
 
     void display1()
     {
