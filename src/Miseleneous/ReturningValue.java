@@ -8,22 +8,33 @@ public class ReturningValue {
         return  a; //11
     }
 
+    char getMyChar()
+    {
+        char c ='f';
+        return  c;
+    }
+
+
     public static void main(String[] args) {
 
         ReturningValue ob = new ReturningValue();
 
-        int x = 10 ;
+       /* int x = 10 ;
 
         System.out.println(x);
 
         int i  = x;
 
-        System.out.println("i="+i);
+        System.out.println("i="+i);*/
 
-        x = ob.getMyValue();
+        int x = ob.getMyValue();
 
         System.out.println("x="+x);
 
+
+        char ch = ob.getMyChar();
+        System.out.println("ch="+ch);
+        System.out.println(ob.getMyChar());
     }
 
 }
