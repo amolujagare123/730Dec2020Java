@@ -23,6 +23,15 @@ public class ClassDemo {
         ob.c = 'g';
         ob.str = "abc";
 
+
+        ClassDemo ob2 = new ClassDemo();
+
+        ob2.a  = 10 ;
+        ob2.d = 1.3;
+        ob2.c = 'g';
+        ob2.str = "abc";
+
+
         ob.display();
 
         System.out.println(ob.a);
